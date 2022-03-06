@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style-palmarès.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+  <link rel="icon" href="icons/Paris2024-logo-768x576.png">
+  <title>Palmarès Olympiques en BMX</title>
+</head>
+
+<body>
+  <!-- mise en place de la bar de navigation -->
+  <nav class="navbar" id="myNav-bar">
+    <a href="https://www.paris2024.org/fr/sport/bmx-freestyle/"><img src="icons/Paris2024-logo-768x576.png"
+        alt="Paris2024-logo"></a>
+    <a href="https://www.paris2024.org/fr/sport/bmx-freestyle/">Site officiel</a>
+    <a href="acceuil.html" class="active">Acceuil</a>
+    <a href="règle_bmx.html">Règles</a>
+    <a href="palmarès_bmx.html">Palmarès</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <img src="icons/menu.svg" alt="menu">
+    </a>
+  </nav>
+  <!-- mise en place du header -->
+  <header>
+    <video src="videos/paris_trailer.mp4" autoplay muted loop poster="videos/Capture_video.PNG">
+      Votre navigateur ne permet pas de lire les vidéos.
+    </video>
+    <!-- création du path BMX -->
+    <svg>
+      <defs>
+        <clipPath id="clip-bmx" clipPathUnits="objectBoundingBox" transform="scale(0.00052083, 0.000825925925925926)">
+          <path
+            d="M21,115.3h268c158.6,0,238,73.2,238,219.7c0,72.6-27.1,133-81.3,181.1C524.5,556.2,564,627.7,564,730.6
+        		c0,78.9-23.2,141.7-69.7,188.5c-22.7,22.4-47,38-72.9,46.8s-60.9,13.3-104.8,13.3H275v-222h37.3c21.9,0,37.3-3.3,46.3-9.8
+        		s13.5-18,13.5-34.5c0-27.8-18.3-41.7-54.9-41.7H275V440.8c40,0,60-16.2,60-48.6c0-29.9-18-44.8-54.1-44.8H240v632H21V115.3z" />
+          <path d="M563.4,979.3V356.5c0-77.1,20-140.1,60-188.9c40-48.9,91.8-73.3,155.5-73.3c75.6,0,133.8,40.6,174.5,121.7
+        		c24.8-43.7,51.4-74.9,79.8-93.6c28.4-18.7,63.5-28.1,105.2-28.1c66.2,0,116.9,24.4,152.1,73.3s52.9,119.2,52.9,211.1v600.6h-219
+        		v-562c0-27.4-1.9-45.6-5.7-54.6s-11.4-13.4-22.9-13.4c-21.6,0-32.4,21.2-32.4,63.6v566.4h-219v-562c0-27-2-45.1-6-54.3
+        		c-4-9.2-11.8-13.7-23.4-13.7c-21.8,0-32.6,22.7-32.6,68v562H563.4z" />
+          <path d="M1910.3,115.3l-191.7,420.3l198.2,443.7h-230.6l-90.7-209.5l-76.7,209.5H1292l202.5-436.7l-191.7-427.3h228.4l85.9,196.3
+        		l69.1-196.3H1910.3z" />
+        </clipPath>
+      </defs>
+    </svg>
+  </header>
+  <!-- mise en place du premier block du site -->
+  <section id="section-1">
+    <div id="h2-pose">
+      <h2>Palmarès Olympiques BMX Freestyle Park</h2>
+    </div>
+    <!-- block image clipé avec text -->
+    <div class="podium-text-image">
+      <img class="images-clipped" src="images/bmx-podium.png" alt="bmx-podium">
+      <p> <br> <br> <br> <br>
+        Le BMX Freestyle a connu des débuts olympiques spectaculaires à Tokyo 2020. <br> <br>
+        Des sauts à couper le souffle et des athlètes dotés d’une agilité incroyable ont fait le show, tandis que deux
+        magnifiques riders ont été couronnés premiers champions olympiques de leur sport.</p>
+    </div>
+  </section>
+  <!-- mise en place du deuxième block du site -->
+  <section id="section-2">
+    <!-- en-tête du deuxième block du site -->
+    <div id="tokyo">
+      <h1>Jeux Olympiques de Tokyo 2020</h1>
+      <p>
+        L'épreuve masculine de BMX freestyle aux Jeux olympiques d'été de 2020 a eu lieu les 31 juillet et 1er août 2021
+        au Ariake Urban Sports Park. 9 cyclistes de 8 nations ont concouru.</p>
+    </div>
+    <!-- tableau palmarès tokyo 2020 -->
+    <div class="tableau">
+      <table>
+        <caption>TOKYO 2020
+          RÉSULTATS CYCLISME BMX FREESTYLE PARK (H)</caption>
+        <tr>
+          <th>Classement</th>
+          <th>Équipe</th>
+          <th>Participant</th>
+          <th>Résultats</th>
+        </tr>
+        <tr>
+          <td><img class="medailles" src="images/drapeau-pays/Gold_medal.svg" alt="or"></td>
+          <td><img class="drapeau-pays" src="images/drapeau-pays/Flag_of_Australia_(converted).svg" alt="australie"> AUS
+          </td>
+          <td>Logan Martin</td>
+          <td>93.30</td>
+        </tr>
+        <tr>
+          <td><img class="medailles" src="images/drapeau-pays/Silver_medal.svg" alt="argent"></td>
+          <td><img class="drapeau-pays" src="images/drapeau-pays/Flag_of_Venezuela.svg" alt="venezuela">VEN</td>
+          <td>Daniel Dhers</td>
+          <td>92.05</td>
+        </tr>
+        <tr>
+          <td><img class="medailles" src="images/drapeau-pays/Bronze_medal.svg" alt="bronze"></td>
+          <td><img class="drapeau-pays" src="images/drapeau-pays/Flag_of_the_United_Kingdom.svg" alt="royaume_unis">GBR
+          </td>
+          <td>Declan Brooks</td>
+          <td>90.80</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td><img class="drapeau-pays" src="images/drapeau-pays/Flag_of_Costa_Rica.svg" alt="costa-rica">CRC</td>
+          <td>Kenneth Fabian Tencio Esquivel</td>
+          <td>84.20</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td><img class="drapeau-pays" src="images/drapeau-pays/Flag_of_Japan.svg" alt="japon">JPN</td>
+          <td>Rimu Nakamura</td>
+          <td>85.10</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td><img class="drapeau-pays" src="images/drapeau-pays/Flag_of_Russia.svg" alt="russie">RU</td>
+          <td>Irek Rizaev</td>
+          <td>82.40</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td><img class="drapeau-pays" src="images/drapeau-pays/Flag_of_France.svg" alt="france">FRA</td>
+          <td>Anthony Jeanjean</td>
+          <td>78.20</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td><img class="drapeau-pays" src="images/drapeau-pays/Flag_of_the_United_States_(Pantone).svg" alt="usa">USA
+          </td>
+          <td>Justin Dowell</td>
+          <td>44.60</td>
+        </tr>
+        <tr>
+          <td>9</td>
+          <td><img class="drapeau-pays" src="images/drapeau-pays/Flag_of_the_United_States_(Pantone).svg" alt="usa">USA
+          </td>
+          <td>Nick Bruce</td>
+          <td>24.60</td>
+        </tr>
+      </table>
+    </div>
+  </section>
+  <!-- mise en place du troisième block du site -->
+  <div id="section-3">
+    <div class="article-tableau">
+      <!-- block article à gauche -->
+      <div id="article">
+        <a
+          href="https://www.lequipe.fr/Bmx/Actualites/Jo-de-tokyo-anthony-jeanjean-passe-a-cote-de-la-medaille-en-bmx-freestyle-a-cause-d-une-chute/1275046"><img
+            src="images/anthony-jeanjean.PNG" alt="anthony-jeanjean"></a>
+        <h3>Article de <img src="icons/equipe.png" alt="l'equipe"></h3>
+      </div>
+      <!-- tableau palmarès français -->
+      <div id="palmarès-francais">
+        <table>
+          <caption>Palmarès olympiques Français</caption>
+          <tr>
+            <th>Classement</th>
+            <th>Équipe</th>
+            <th>Participant</th>
+            <th>Résultats</th>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td><img class="drapeau-pays" src="images/drapeau-pays/Flag_of_France.svg" alt="france">FRA</td>
+            <td>Anthony Jeanjean</td>
+            <td>78.20</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+  <!-- mise en place du quatrème block du site -->
+  <section id="section-4">
+    <div id="block-text-video">
+      <h1>Mondiaux de BMX freestyle : les Français à Montpellier avant les JO de Tokyo</h1>
+      <p>Du 4 au 8 juin, la Sud de France Arena de Montpellier accueille les championnats du monde de BMX freestyle,
+        flat et park. <br> Dans cette discipline, l'épreuve est qualificative pour les Jeux Olympiques de Tokyo. <br>
+
+        <br> Le gratin mondial du BMX freestyle s'était donné rendez vous à l'Arena de Montpellier pour en découdre ce
+        dimanche 6 juin, à l'occasion de championnats du monde qui se déroulaient à huis clos. Dans les têtes, un
+        horizon : juillet prochain et les Jeux Olympiques de Tokyo, les premiers pour la discipline. <br> <br> Restent
+        les qualifications à décrocher. Chez les hommes, une place était déjà assurée. De quoi atténuer la déception de
+        ne voir, à l'issue de la journée, aucun des trois Français alignés accéder à la finale.
+      </p>
+    </div>
+    <!-- block vidéo avec vidéo youtube importer -->
+    <div id="video-fise">
+      <iframe width="1080" height="640" src="https://www.youtube.com/embed/BIeFjiPJ-_Y" title="YouTube video player"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
+  </section>
+  <!-- mise en place du sixième block du site, le block partenaires -->
+  <div id="section-6">
+    <div class="container" onclick="location.href='https://www.paris2024.org/en/partners/';" style="cursor:pointer;">
+      <p class="block-logos__title"><span>Worldwide Partners</span></p>
+      <div class="block-logos__wrapper block-logos__wrapper--global_partners">
+        <ul>
+          <li class="block-logos__item">
+            <img class="logo item-logo" alt="Airbnb" loading="lazy"
+              src="https://medias.paris2024.org/uploads/2020/05/Rang1-PartMond-1-Airbnb-RVB.svg" />
+          </li>
+          <li class="block-logos__item">
+            <img class="logo item-logo" alt="Alibaba" loading="lazy"
+              src="https://medias.paris2024.org/uploads/2020/05/Rang1-PartMond-2-Alibaba-RVB.svg" />
+          </li>
+          <li class="block-logos__item">
+            <img class="logo item-logo" alt="Allianz" loading="lazy"
+              src="https://medias.paris2024.org/uploads/2020/05/Rang1-PartMond-3-Allianz-RVB.svg" />
+          </li>
+          <li class="block-logos__item">
+            <img class="logo item-logo" alt="Atos" loading="lazy"
+              src="https://medias.paris2024.org/uploads/2020/05/Rang1-PartMond-4-Atos-RVB-2.svg" />
+          </li>
+          <li class="block-logos__item">
+            <img class="logo item-logo" alt="Bridgestone" loading="lazy"
+              src="https://medias.paris2024.org/uploads/2020/05/Rang1-PartMond-5-Bridgestone-RVB.svg" />
+          </li>
+        </ul>
+        <ul>
+          <li class="block-logos__item">
+            <img class="logo item-logo" alt="Coca-Cola / Mengniu" loading="lazy"
+              src="https://medias.paris2024.org/uploads/2020/05/Rang1-PartMond-6-CocaCola_Mengniu-RVB.svg" />
+          </li>
+          <li class="block-logos__item">
+            <img class="logo item-logo" alt="Intel" loading="lazy"
+              src="https://medias.paris2024.org/uploads/2020/10/Logo-Intel-RVB.svg" />
+          </li>
+          <li class="block-logos__item">
+            <img class="logo item-logo" alt="Omega" loading="lazy"
+              src="https://medias.paris2024.org/uploads/2020/05/Rang1-PartMond-8-Omega-RVB.svg" />
+          </li>
+          <li class="block-logos__item">
+            <img class="logo item-logo" alt="Panasonic" loading="lazy"
+              src="https://medias.paris2024.org/uploads/2020/05/Rang1-PartMond-9-Panasonic-RVB.svg" />
+          </li>
+          <li class="block-logos__item">
+            <img class="logo item-logo" alt="P&amp;G" loading="lazy"
+              src="https://medias.paris2024.org/uploads/2021/09/Rang1-PartMond-10-PG-RVB.svg" />
+          </li>
+        </ul>
+        <ul>
+          <li class="block-logos__item">
+            <img class="logo item-logo" alt="Samsung" loading="lazy"
+              src="https://medias.paris2024.org/uploads/2020/05/Rang1-PartMond-11-Samsung-RVB.svg" />
+          </li>
+          <li class="block-logos__item">
+            <img class="logo item-logo" alt="Toyota" loading="lazy"
+              src="https://medias.paris2024.org/uploads/2020/05/Rang1-PartMond-12-Toyota-RVB.svg" />
+          </li>
+          <li class="block-logos__item">
+            <img class="logo item-logo" alt="Visa" loading="lazy"
+              src="https://medias.paris2024.org/uploads/2020/12/Rang1-PartMond-13-Visa-RVB-1.svg" />
+          </li>
+        </ul>
+      </div>
+      <p class="block-logos__title"><span>Premium Partners</span></p>
+      <div class="block-logos__wrapper block-logos__wrapper--premium_partners">
+        <ul>
+          <li class="block-logos__item">
+            <img class="logo item-logo" alt="Groupe BPCE" loading="lazy"
+              src="https://medias.paris2024.org/uploads/2019/02/Rang1-PartPrem-2-BPCE-RVB.svg" />
+          </li>
+          <li class="block-logos__item">
+            <img class="logo item-logo" alt="EDF" loading="lazy"
+              src="https://medias.paris2024.org/uploads/2020/05/Rang1-PartPrem-3-EDF-RVB.svg" />
+          </li>
+          <li class="block-logos__item">
+            <img class="logo item-logo" alt="Orange" loading="lazy"
+              src="https://medias.paris2024.org/uploads/2020/10/Logo-Orange-RVB.svg" />
+          </li>
+          <li class="block-logos__item">
+            <img class="logo item-logo" alt="Sanofi" loading="lazy"
+              src="https://medias.paris2024.org/uploads/2021/07/Rang1-PartPrem-4-Sanofi-RVB.svg" />
+          </li>
+        </ul>
+      </div>
+      <p class="block-logos__title"><span>Official Partners</span></p>
+      <div class="block-logos__wrapper block-logos__wrapper--official_partners">
+        <ul>
+          <li class="block-logos__item">
+            <img class="logo item-logo" alt="Accor" loading="lazy"
+              src="https://medias.paris2024.org/uploads/2021/11/Rang2-PartOffi-1-Accor-RVB-3.svg" />
+          </li>
+          <li class="block-logos__item">
+            <img class="logo item-logo" alt="Cisco" loading="lazy"
+              src="https://medias.paris2024.org/uploads/2021/04/Rang2-PartOffi-2-Cisco-RVB-1.svg" />
+          </li>
+          <li class="block-logos__item">
+            <img class="logo item-logo" alt="Decathlon" loading="lazy"
+              src="https://medias.paris2024.org/uploads/2021/07/Rang2-PartOffi-3-Decathlon-RVB.svg" />
+          </li>
+          <li class="block-logos__item">
+            <img class="logo item-logo" alt="FDJ" loading="lazy"
+              src="https://medias.paris2024.org/uploads/2021/04/Rang2-PartOffi-2-FDJ-RVB_100.svg" />
+          </li>
+          <li class="block-logos__item">
+            <img class="logo item-logo" alt="Le Coq Sportif" loading="lazy"
+              src="https://medias.paris2024.org/uploads/2020/05/Rang2-PartOffi-1-Le-Coq-Sportif-RVB.svg" />
+          </li>
+        </ul>
+        <ul>
+          <li class="block-logos__item">
+            <img class="logo item-logo" alt="PwC" loading="lazy"
+              src="https://medias.paris2024.org/uploads/2021/07/Rang2-PartOffi-5-PwC-RVB.svg" />
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- mise en place du footer -->
+    <footer>
+      <div id="coordonnée">
+        <h3>Mes Coordonnées</h3>
+        <ul>
+          <li>Romani Hugo</li>
+          <li>hugo.romani@live.fr</li>
+          <li>06 44 80 06 08</li>
+          <li>Portfolio: ""</li>
+        </ul>
+      </div>
+      <div id="projet">
+        <h3>Site réaliser dans le cadre d'un projet</h3>
+        <h4>Site avec le thème des Jeux Olympiques 2024.</h4>
+        <ul>
+          <li> Création d'une page Acceuil </li>
+          <li> Création d'une page Règles </li>
+          <li> Création d'une page Palmarès </li>
+        </ul>
+      </div>
+      <div id="formation">
+        <h3>Organisme de formation: Cnam Occitanie </h3>
+        <h4>Réseaux du cnam</h4>
+        <div id="logo-reseaux">
+          <a href="https://www.cnam-occitanie.fr/"><img src="icons/footer/logo_cnam.png" alt="logo_cnam"></a>
+          <a href="https://www.facebook.com/cnam.occitanie/"><img src="icons/footer/facebook-brands-2.svg"
+              alt="facebook_cnam"></a>
+          <a href="https://www.linkedin.com/company/cnam-lr/?originalSubdomain=fr"><img src="icons/footer/linkedin-brands-2.svg"
+              alt="linkedin-brands"></a>
+          <a href="https://twitter.com/CnamOccitanie"><img src="icons/footer/twitter-brands-2.svg" alt="twitter-brands"></a>
+        </div>
+      </div>
+    </footer>
+    <!-- importation des plugins de la librery JavaSript Gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/EaselPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/MotionPathPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/CustomEase.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollToPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <!-- lien fichier javascript -->
+    <script src="app.js"></script>
+</body>
+
+</html>

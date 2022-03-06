@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="style-acceuil.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+  <link rel="icon" href="icons/Paris2024-logo-768x576.png">
+  <title>Jeux olympiques 2024</title>
+</head>
+
+<body>
+  <!-- mise en place de la bar de navigation -->
+  <nav class="navbar" id="myNav-bar">
+    <a href="https://www.paris2024.org/fr/sport/bmx-freestyle/"><img src="icons/Paris2024-logo-768x576.png"
+        alt="Paris2024-logo"></a>
+    <a href="https://www.paris2024.org/fr/sport/bmx-freestyle/">Site officiel</a>
+    <a href="acceuil.html" class="active-nav">Acceuil</a>
+    <a href="règle_bmx.html">Règles</a>
+    <a href="palmarès_bmx.html">Palmarès</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <img src="icons/menu.svg" alt="menu">
+    </a>
+  </nav>
+  <!-- mise en place du header -->
+  <header>
+    <video src="videos/paris_trailer.mp4" autoplay muted loop poster="videos/Capture_video.PNG">
+      Votre navigateur ne permet pas de lire les vidéos.
+    </video>
+    <!-- création du path BMX -->
+    <svg>
+      <defs>
+        <clipPath id="clip-bmx" clipPathUnits="objectBoundingBox" transform="scale(0.00052083, 0.000825925925925926)">
+          <path
+            d="M21,115.3h268c158.6,0,238,73.2,238,219.7c0,72.6-27.1,133-81.3,181.1C524.5,556.2,564,627.7,564,730.6
+    		c0,78.9-23.2,141.7-69.7,188.5c-22.7,22.4-47,38-72.9,46.8s-60.9,13.3-104.8,13.3H275v-222h37.3c21.9,0,37.3-3.3,46.3-9.8
+    		s13.5-18,13.5-34.5c0-27.8-18.3-41.7-54.9-41.7H275V440.8c40,0,60-16.2,60-48.6c0-29.9-18-44.8-54.1-44.8H240v632H21V115.3z" />
+          <path d="M563.4,979.3V356.5c0-77.1,20-140.1,60-188.9c40-48.9,91.8-73.3,155.5-73.3c75.6,0,133.8,40.6,174.5,121.7
+    		c24.8-43.7,51.4-74.9,79.8-93.6c28.4-18.7,63.5-28.1,105.2-28.1c66.2,0,116.9,24.4,152.1,73.3s52.9,119.2,52.9,211.1v600.6h-219
+    		v-562c0-27.4-1.9-45.6-5.7-54.6s-11.4-13.4-22.9-13.4c-21.6,0-32.4,21.2-32.4,63.6v566.4h-219v-562c0-27-2-45.1-6-54.3
+    		c-4-9.2-11.8-13.7-23.4-13.7c-21.8,0-32.6,22.7-32.6,68v562H563.4z" />
+          <path d="M1910.3,115.3l-191.7,420.3l198.2,443.7h-230.6l-90.7-209.5l-76.7,209.5H1292l202.5-436.7l-191.7-427.3h228.4l85.9,196.3
+    		l69.1-196.3H1910.3z" />
+        </clipPath>
+      </defs>
+    </svg>
+  </header>
+  <!-- mise en place du premier block du site -->
+  <section id="section-1">
+    <!-- block image à gauche -->
+    <div id="block_image_1">
+      <img id="bmx-vert" src="images/vert-bmx.png" alt="vert-bmx" />
+    </div>
+    <!-- block text à droite -->
+    <div class="block">
+      <img id="logo-paris" src="icons/Logo_JO_d'été_-_Paris_2024_(transitoire).svg" alt="paris-2024-logo" />
+      <h2>Les racines du BMX Freestyle</h2>
+      <p>
+        Bicycle Motocross (BMX) freestyle s'est rapidement développé en tant
+        que discipline distincte du BMX Racing après ses débuts dans les
+        années 1960 en Californie.
+      </p>
+      <h2>Création du sport</h2>
+      <p>
+        De 1980 à 1987, le BMX Freestyle a gagné en popularité. L'organe
+        directeur fondateur de la discipline s'appelait pour la première fois
+        l'Amateur Skate Park Association (ASPA) en 1982, puis quelques années
+        plus tard, il est devenu l'American Freestyle Association (AFA).
+        Finalement, la discipline est devenue régie par l'Union Cycliste
+        Internationale (UCI). En 2021, l'UCI comptait 197 membres.
+      </p>
+    </div>
+  </section>
+  <!-- mise en place du second block du site -->
+  <div id="section-2">
+    <!-- block text à gauche -->
+    <div class="block">
+      <ul>
+        <li class="titre-liste">Événement en 2024</li>
+        <li>Park (femmes / hommes)</li>
+        <li class="titre-liste">Emplacement en 2024</li>
+        <li>Parc urbain de la Concorde</li>
+        <li class="titre-liste">Organisation Internationale</li>
+        <li>Féderation internationale : Union Cycliste Internationale</li>
+        <li><a href="https://www.uci.org/">https://www.uci.org/</a></li>
+      </ul>
+    </div>
+    <!-- block image à droite -->
+    <div id="block_image_2">
+      <img id="logan-bmx" src="images/logan-martin2.png" alt="logan-martin" />
+    </div>
+  </div>
+  <!-- Mise en place du troisième block du site -->
+  <section id="section-3">
+    <div id="origine">
+      <h2>BMX Freestyle</h2>
+      <p>
+        Issu de la culture du motocross qui s’est développé dans les années 1970
+        en Californie, le BMX freestyle est né de l’imagination des jeunes de la
+        région qui, impressionnés par les figures réalisées par les bikers, ont
+        cherché à les imiter sur leur vélo. Le sport a gagné en popularité dans
+        les décennies suivantes, et s’est imposé au programme des compétitions
+        de sport extrême comme les X Games dans les années 2000 ou encore le
+        FISE (Festival International de Sport Extrême). La première manche de la
+        Coupe du Monde de BMX Freestyle a été organisée par l’UCI – fédération
+        internationale de cyclisme – en 2016, dans le cadre de l’édition 2016 du
+        FISE.
+      </p>
+    </div>
+    <div id="histoire">
+      <h2>Histoire olympique</h2>
+      <p>
+        Le BMX freestyle a fait ses premiers pas sur la scène olympique aux Jeux
+        Olympiques de la Jeunesse 2018 à Buenos Aires. Il a offert un spectacle
+        tellement palpitant devant des foules compactes, convainquant le CIO du
+        potentiel de ce sport urbain par excellence. Le BMX freestyle sera
+        présent lors de ses premiers Jeux Olympiques en 2021 à Tokyo. Le nouveau
+        sport apportera une sensation de fraîcheur et injectera de l'adrénaline
+        dans le programme cycliste déjà passionnant et complet.
+      </p>
+    </div>
+  </section>
+  <!-- Mise en place du quatrième block du site -->
+  <div id="section-4">
+    <!-- création du block skatepark -->
+    <div id="block-skatepark">
+      <!-- importation des images png -->
+      <img id="tribunes-1" src="images/crowd-skatepark/background/tribunes-1.png" alt="tribunes-1">
+      <img id="tribunes-2" src="images/crowd-skatepark/background/tribunes-1.png" alt="tribunes-2">
+      <img id="grass-crowd" src="images/crowd-skatepark/crowd/Sans-titre-6-1.png" alt="grass and crowd">
+      <img id="front-crowd" src="images/crowd-skatepark/crowd/Sans-titre-12.png" alt="front-crowd">
+      <img id="front-grass" src="images/crowd-skatepark/background/front-grass.png" alt="front-grass">
+      <!-- création du skatepark svg -->
+      <svg id="skatepark" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        x="0px" y="0px" viewBox="48 -149 1411 835" style="enable-background: new 0 0 1411 835" xml:space="preserve">
+        <style type="text/css">
+          .st0 {
+            fill: #ea8b8b;
+          }
+
+          .st1 {
+            fill: #35b14a;
+          }
+
+          .st2 {
+            fill: #f7de00;
+          }
+
+          .st3 {
+            fill: #1e76bc;
+          }
+
+          .st4 {
+            fill: #c6203c;
+          }
+
+          .st5 {
+            fill: #006ab3;
+          }
+
+          .st6 {
+            fill: #e40012;
+          }
+
+          .st7 {
+            fill: #008d3b;
+          }
+
+          .st8 {
+            fill: #f5a800;
+          }
+
+          .st9 {
+            fill: #f5a801;
+          }
+
+          .st10 {
+            fill: #018d3b;
+          }
+
+          .st11 {
+            fill: #010101;
+          }
+
+          .st12 {
+            fill: none;
+            stroke: #e815ff00;
+            stroke-miterlimit: 10;
+          }
+
+          .st13 {
+            fill: #a7a7a7;
+          }
+
+          .st14 {
+            fill: #e72f3e;
+          }
+
+          .st15 {
+            fill: #cacaca;
+          }
+
+          .st16 {
+            fill: #fc7422;
+          }
+
+          .st17 {
+            fill: #0a6fa1;
+          }
+
+          .st18 {
+            fill: #f5ba91;
+          }
+
+          .st19 {
+            fill: #e9e9e7;
+          }
+        </style>
+        <!-- path skatepark svg -->
+        <g id="Skatepark">
+          <g>
+            <g id="XMLID_00000136389674440814927010000008042132445926775729_">
+              <path d="M1378.4,345.5c0,48.9,0,97.9,0,146.8c0,0-0.1,0-0.1,0C1378.3,443.4,1378.3,394.5,1378.4,345.5
+				C1378.3,345.5,1378.4,345.5,1378.4,345.5z" />
+              <path class="st0" d="M1378.3,345.5c0,49,0,97.9,0,146.8c-442.1,0-884.9,0-1328,0c0-50.4,0-100.1,0-150c1.6,0,3.1,0,5,0
+				c0,8.9,0,17.6,0,26.5c1.2,0.2,2.1,0.4,2.9,0.4c0,0,0.1,0,0.1,0c0.1,0,0.1,0,0.2,0c4.6,0.1,7,0.2,8.6,1.3c0.2,0.1,0.3,0.2,0.5,0.4
+				c1.4,1.3,1.9,3.8,3.1,8.5c2.6,10.8,5.3,21.6,8,32.8c0,0,0.1,0,0.1,0c4.9,0,9.5,0,14.2,0c7.4,0.1,10.4,2.9,11,10.7
+				c0.8,10.9,3.6,21.3,9,30.8c10.8,19.2,28.5,28.3,49.1,32.7c1.8,0.4,3.6,0.7,5.4,0.9c3,0.4,6.1,0.5,9.2,0.5
+				c39.4,0.1,78.8,0.1,118.2,0.1c0.1,0,0.2,0,0.3,0c12.4,0,23.8-3.6,34.3-9.6c0.1-0.1,0.2-0.1,0.3-0.2c1.9-1.1,3.7-2.2,5.5-3.4
+				c12.1-8,24.9-12.8,39.2-13.4c1.8-0.1,3.5-0.1,5.4,0c0.4,0,0.8,0,1.2,0.1c13.3,0.7,25.4,4.7,36.4,12.1c13.5,9.2,28,14.1,44.2,14.6
+				c1.8,0.1,3.6,0.1,5.4,0c0.1,0,0.2,0,0.3,0c25.6-0.5,51.1-0.4,76.7-0.5c3.8,0,7.7,0,11.5-0.1c1.1,0,2.2,0,3.2-0.1
+				c34.5-1.8,66.7-29.2,75.8-64.7c0.4-1.8,0.9-3.5,2.5-5.5c0.6,1.8,1.1,3.6,1.6,5.5c4.4,16.9,13.4,31.4,25.6,42.4c0,0,0,0,0,0
+				c1.3,1.2,2.6,2.3,4,3.4c1.4,1.1,2.8,2.1,4.2,3.2c1,0.7,1.9,1.3,2.9,2c0,0,0,0,0,0c12.8,8.3,27.8,13.2,43.9,13.8
+				c1.4,0.1,2.8,0.1,4.3,0.1c65-0.3,129.8-0.1,194.8-0.2c0.6,0,1.2,0,1.8,0c4.5-0.1,9-0.6,14.4-1c-2-6.3-3.4-11.2-5-16
+				c-0.2-0.5-0.7-1-1.2-1.5c-0.9-0.7-1.9-1.4-2.8-2.1c1-0.6,2.1-1.6,3.3-1.9c8.4-2.3,16.7-4.7,25.1-7c11.3-3.1,22.6-6.3,33.9-9.4
+				c3.2-0.9,6.4-1.8,9.6-2.6c5.3-1.5,10.6-2.8,17.3-4.7c-5.5,7.9,0,14,0.7,20.8c0.8,0.1,1.4,0.4,1.9,0.4c0,0,0,0,0,0
+				c0.2,0,0.3,0,0.4-0.1c3.7-1.3,7.5-2.1,11.3-2.5c0,0,0,0,0.1,0c0.5-0.1,0.9-0.1,1.4-0.1c10.2-1,20.6,0.2,30.8-0.6
+				c0.2,0,0.3,0,0.5,0c0.3,0,0.6,0,0.8-0.1c0.6-0.1,1.3-0.1,1.9-0.1c1.2,0,2.3,0,3.4,0c8.5,0.4,14.8,4.1,20.9,11.4
+				c10.5,12.6,24.3,18.8,41.3,18.8c0.3,0,0.7,0,1.1,0c38-0.6,76.1,0.6,114.1-0.5c0.8,0,1.6-0.1,2.4-0.1c52-2.6,92.1-38.5,103.7-85.6
+				c0.7-2.8,0.4-5.9,0.4-8.8c0-16,0-32.1,0-48.5C1360.1,345.5,1368.8,345.5,1378.3,345.5z" />
+              <path d="M1129.7,489.1c-17,0.1-30.7-6.1-41.3-18.8c-6.1-7.2-12.4-10.9-20.9-11.4c8.5,0.4,14.9,4.1,21,11.4
+				C1099.1,482.8,1112.8,489,1129.7,489.1z" />
+              <path d="M1030.2,459.8c10.2-1,20.6,0.1,30.8-0.6C1050.8,460,1040.4,458.8,1030.2,459.8z" />
+              <path d="M1030.2,459.8c-0.5,0-0.9,0.1-1.4,0.1C1029.3,459.9,1029.7,459.8,1030.2,459.8z" />
+              <path d="M1015.3,462.1c0.7,0.1,1.3,0.3,1.8,0.4c-0.5,0-1.1-0.3-1.9-0.4c-0.6-6.8-6.1-12.9-0.7-20.8c0,0,0.1,0,0.1,0
+				C1009.2,449.2,1014.6,455.3,1015.3,462.1z" />
+              <path d="M953.8,458.1c11.3-3.1,22.6-6.3,33.9-9.4C976.4,451.8,965.1,454.9,953.8,458.1z" />
+              <path d="M664.3,465.4c1.3,1.2,2.6,2.3,4,3.4C666.9,467.7,665.6,466.6,664.3,465.4z" />
+              <path d="M638.8,423c4.3,16.9,13.4,31.4,25.5,42.4c-12.2-11-21.2-25.5-25.6-42.4c-0.5-1.9-1-3.7-1.6-5.5c0,0,0-0.1,0.1-0.1
+				C637.6,419.3,638.2,421.2,638.8,423z" />
+              <path d="M467.3,488.2c25.6-0.5,51.1-0.4,76.7-0.5C518.4,487.9,492.8,487.8,467.3,488.2z" />
+              <path d="M417.5,473.6c13.5,9.1,28.1,14,44.1,14.6c-16.1-0.6-30.6-5.5-44.2-14.6c-10.9-7.4-23.1-11.4-36.4-12.1
+				C394.4,462.2,406.6,466.1,417.5,473.6z" />
+              <path d="M295.2,488c12.5-0.1,23.7-3.7,34.3-9.6C319,484.4,307.7,488,295.2,488z" />
+              <path d="M162.2,486.5c1.8,0.4,3.5,0.7,5.3,0.9C165.7,487.1,163.9,486.8,162.2,486.5c-20.8-4.4-38.4-13.5-49.2-32.7
+				c-5.4-9.5-8.1-19.9-9-30.8c-0.6-7.8-3.6-10.6-11-10.7c7.5,0,10.5,2.8,11.1,10.7c0.9,10.9,3.6,21.3,9,30.8
+				C124,472.9,141.6,482,162.2,486.5z" />
+              <path d="M78.8,412.3c0,0-0.1,0-0.1,0c-2.7-11.2-5.4-22-8-32.8c-1.1-4.7-1.7-7.1-3.1-8.5c1.4,1.3,2,3.8,3.2,8.5
+				C73.3,390.2,76.1,401,78.8,412.3z" />
+              <path d="M58.3,369.3C58.3,369.3,58.2,369.3,58.3,369.3c-0.9,0-1.8-0.2-3-0.4c0-8.9,0-17.6,0-26.5c0,0,0.1,0,0.1,0
+				c0,8.9,0,17.6,0,26.5C56.7,369.1,57.5,369.2,58.3,369.3z" />
+            </g>
+          </g>
+        </g>
+        <g id="logo">
+          <g>
+            <path class="st1" d="M64.9,482.4c0.2,0.7,0.5,1.4,0.9,2c0.4,0.6,0.8,1.2,1.4,1.8c-3.9,0-7.8,0-11.7,0c0-1.3,0-2.6,0-3.8
+			c0.1-0.1,0.2-0.1,0.4-0.1c2.9,0,5.8,0,8.7,0C64.6,482.3,64.8,482.3,64.9,482.4z" />
+            <path class="st2" d="M64.9,482.4c-3.1,0-6.3,0-9.4,0c0-1.3,0-2.6,0-3.9c0.1-0.1,0.2-0.1,0.4-0.1c2.7,0,5.3,0,8,0
+			c0.1,0,0.3,0,0.4,0.1C64.4,479.8,64.5,481.1,64.9,482.4z" />
+            <path d="M64.2,478.4c-2,0-4,0-6,0c-0.9,0-1.8,0-2.7,0c0-1.3,0-2.6,0-3.9c0.1-0.1,0.2-0.1,0.4-0.1c2.7,0,5.3,0,8,0
+			c0.1,0,0.3,0,0.4,0.1c0,1.3,0,2.5,0,3.8C64.2,478.3,64.2,478.4,64.2,478.4z" />
+            <path class="st3" d="M55.5,466.8c0.3,0,0.5,0,0.8,0c2.6,0,5.1,0,7.7,0c0.2,0,0.3,0.1,0.3,0.3c0,1.2,0,2.4,0,3.6
+			c-0.1,0.1-0.2,0.1-0.4,0.1c-2.7,0-5.3,0-8,0c-0.1,0-0.3,0-0.4-0.1C55.5,469.4,55.5,468.1,55.5,466.8z" />
+            <path class="st4" d="M55.5,470.7c0.9,0,1.8,0,2.7,0c2,0,4.1,0,6.1,0c0,1.2,0,2.5,0,3.7c0,0.1,0,0.1,0,0.2c-2.9,0-5.8,0-8.8,0
+			C55.5,473.3,55.5,472,55.5,470.7z" />
+            <path d="M87.5,473.3c0,1.6,0.1,3.6-0.1,5.5c-0.2,2.4-1,4.4-2.9,5.9c-1.2,0.9-2.5,1.4-4,1.7c-1.4,0.2-2.8,0.3-4.2,0.2
+			c-1.6-0.2-3.2-0.4-4.6-1.1c-2.2-1.1-3.4-2.9-4-5.2c-0.2-0.9-0.3-1.8-0.3-2.7c-0.1-3.5,0-7.1,0-10.6c0-0.2,0.1-0.2,0.2-0.2
+			c1.8,0,3.6,0,5.4,0c0.2,0,0.3,0.1,0.3,0.3c0,3.1,0,6.2,0.1,9.2c0,0.8,0.1,1.6,0,2.4c-0.1,1.4,1.1,2.8,2.3,3.2
+			c1.3,0.5,2.6,0.5,3.8-0.1c1.2-0.6,2-1.6,2-3c0.1-3.9,0.1-7.8,0.1-11.7c0-0.3,0.1-0.4,0.4-0.3c1.8,0,3.5,0,5.3,0
+			c0.2,0,0.3,0.1,0.3,0.3C87.5,469,87.5,471,87.5,473.3z" />
+            <path d="M101.6,466.5c2.6,0,4.9,0.4,7,1.4c0.5,0.2,0.9,0.5,1.4,0.8c0.1,0.1,0.1,0.1,0.1,0.3c-0.7,1.2-1.5,2.4-2.2,3.6
+			c-0.1,0.2-0.2,0.2-0.4,0.1c-1.1-0.7-2.4-1.3-3.7-1.5c-2-0.3-3.9-0.1-5.6,1.1c-1.3,0.9-2,2.2-2,3.9c0,1.2,0.1,2.4,0.7,3.4
+			c0.9,1.3,2.1,2,3.6,2.4c2.5,0.6,4.9,0.1,7-1.3c0.6-0.4,0.6-0.4,0.9,0.2c0.6,1,1.3,2.1,1.9,3.2c0.2,0.3,0.1,0.4-0.1,0.5
+			c-1.3,0.8-2.8,1.4-4.3,1.8c-1.5,0.3-3,0.4-4.6,0.4c-2.8-0.1-5.3-0.9-7.5-2.7c-1.7-1.4-2.9-3.3-3.3-5.5c-0.7-4.8,1.3-8.9,5.9-10.9
+			C98,466.7,99.9,466.4,101.6,466.5z" />
+            <path
+              d="M118.6,476.6c0,3.2,0,6.4,0,9.6c0,0.3-0.1,0.3-0.3,0.3c-1.8,0-3.5,0-5.3,0c-0.2,0-0.3,0-0.3-0.3c0-2.9,0-5.8,0-8.7
+			c0-3.5,0-6.9,0-10.4c0-0.3,0.1-0.4,0.3-0.3c1.8,0,3.5,0,5.3,0c0.2,0,0.3,0.1,0.3,0.3C118.6,470.2,118.6,473.4,118.6,476.6z" />
+          </g>
+          <g>
+            <path class="st5" d="M619.4,482.3c-4.6,0.3-8.1-2.2-9.3-6.6c0-0.2,0-0.4-0.2-0.5c0-1,0-1.9,0-2.9c0.5-3.1,2.3-5.2,5.2-6.6
+			c0.6-0.3,1.3-0.3,1.9-0.5c0.9,0,1.8,0,2.8,0c3.5,0.4,5.7,2.5,7,5.7c0.3,0.7,0.3,1.5,0.5,2.2c0.1,0.4,0.1,0.7,0,1.1
+			c-0.2,1.6-0.5,3.1-1.5,4.4c-1.1,1.5-2.4,2.7-4.1,3.3c-0.3,0.1-0.7,0.4-1.1,0c-0.2-0.4-0.2-0.7,0-1.1c0.2-0.3,0.5-0.4,0.8-0.5
+			c2.1-1,3.4-2.6,4.1-4.8c0.1-0.3,0.1-0.7,0.1-1c0-0.4,0-0.7,0-1.1c0.1-1.5-0.5-2.7-1.3-3.8c-1.8-2.4-4.2-3.4-7.1-2.8
+			c-3.1,0.6-5.1,2.5-5.7,5.6c-1,5.1,3.3,8.6,6.8,8.4c0.4,0,0.9-0.2,1.3,0.3C619.7,481.6,619.8,481.9,619.4,482.3z" />
+            <path class="st6" d="M665.2,475.3c-0.2,0.1-0.2,0.3-0.2,0.5c-1.1,4.2-4.4,6.7-8.8,6.6c-0.2,0-0.4,0-0.6,0c-0.4,0.3-0.8,0-1.2,0
+			c-3-0.9-5.1-2.8-6.1-5.7c-0.3-0.7-0.6-1.4-0.2-2.2c0.4-0.2,0.8-0.1,1.2,0.1c0.2,0.2,0.2,0.5,0.3,0.8c0.7,2.6,2.2,4.5,4.9,5.3
+			c0.4,0.1,0.8,0.1,1.1,0.2c4.2,0.7,8.1-2.6,8.1-6.9c0-2.8-1.2-5-3.7-6.3c-2.4-1.3-4.9-1.3-7.3,0.3c-1.7,1.1-2.7,2.6-3.2,4.6
+			c-0.1,0.3-0.1,0.7-0.4,0.9c-0.4,0.2-0.7,0.1-1.1-0.1c-0.3-0.3-0.2-0.7-0.1-1c0.5-3.4,3.9-6.6,6.8-6.8c0.1,0,0.1,0,0.2-0.1
+			c1,0,1.9,0,2.9,0c3.2,0.4,5.4,2.3,6.7,5.2c0.3,0.7,0.3,1.4,0.5,2.1C665.2,473.4,665.2,474.3,665.2,475.3z" />
+            <path class="st7" d="M645.6,490.1c-0.1-0.3-0.4-0.2-0.6-0.3c-3.6-1.1-5.8-3.5-6.4-7.2c0-0.1-0.1-0.2-0.1-0.3
+			c-0.3-0.3-0.2-0.7-0.2-1.1c0.2-2.1,0.9-3.9,2.4-5.5c1-1.1,2.2-1.8,3.6-2.4c0.2-0.1,0.5-0.1,0.7,0.1c0.2,0.4,0.1,0.8-0.1,1.2
+			c-0.2,0.3-0.6,0.4-0.9,0.6c-2.3,1.2-3.8,3-4,5.7c0.1,0.4-0.1,0.8-0.1,1.1c0.3,3.4,2.4,5.9,5.6,6.6c4.1,0.9,7.8-1.7,8.6-5.4
+			c0.1-0.4,0.1-0.8,0.4-1c0.4,0.1,0.8,0.1,1.2,0.2c-0.6,4.2-2.9,6.7-7,7.7c-0.1,0-0.1,0.1-0.1,0.1
+			C647.5,490.1,646.5,490.1,645.6,490.1z" />
+            <path class="st8" d="M636.5,482.3c-0.3,3.7-3.1,6.9-6.9,7.6c-0.1,0-0.3,0-0.4,0.2c-0.9,0-1.8,0-2.8,0c-0.1-0.2-0.3-0.2-0.4-0.2
+			c-3.6-1-5.8-3.4-6.5-7.1c0-0.2-0.1-0.3-0.1-0.5c0-0.4,0-0.8,0-1.2c-0.3-0.6,0-1.3,0.2-1.8c0.9-2.7,2.6-4.7,5.3-5.8
+			c0.3-0.1,0.6-0.3,0.9-0.1c0,0.4,0,0.8,0,1.2c-0.2,0.2-0.5,0.4-0.8,0.5c-2.1,1-3.4,2.6-4,4.9c-0.1,0.3-0.2,0.5-0.3,0.8
+			c0,0.4,0,0.8,0,1.2c0.2,0.4,0.2,0.8,0.3,1.2c1.1,4.3,5.4,6.6,9.6,5.1c2.4-0.9,3.9-2.8,4.5-5.3c0.1-0.3,0.1-0.7,0.4-0.9
+			C635.9,481.9,636.2,482,636.5,482.3z" />
+            <path d="M639.8,482c0-0.4,0.1-0.8,0.1-1.2c0.1-0.2,0.3-0.3,0.5-0.4c2.2-1,3.7-2.7,4.2-5.2c0-0.2,0.2-0.4,0.2-0.6
+			c0.1-0.4,0.1-0.8,0.1-1.2c-0.2-0.4-0.3-0.9-0.4-1.4c-0.7-3-3.7-5.5-7.4-5.3c-3,0.1-5.9,2.5-6.6,5.5c-0.1,0.4-0.1,0.8-0.4,1.1
+			c-0.5,0.2-0.8,0-1.1-0.3c0.6-4.1,2.9-6.6,6.9-7.6c0.1,0,0.2,0,0.2-0.2c0.9,0,1.7,0,2.6,0c0.2,0.3,0.5,0.2,0.7,0.2
+			c3.4,0.9,6,3.6,6.5,7.1c0,0.2,0.1,0.3,0.1,0.5c0.3,0.3,0.2,0.7,0.2,1.1c-0.2,2-0.9,3.8-2.2,5.3c-1,1.2-2.3,1.9-3.7,2.5
+			C640.2,482.1,640,482.2,639.8,482z" />
+            <path class="st9" d="M629.1,474.7c0-0.3-0.2-0.4-0.5-0.4c-0.5,0-0.9,0-1.4,0c0-0.4,0-0.8,0-1.2c0.6,0,1.3-0.1,1.9-0.1
+			c0.4,0.1,0.8,0.2,1.2,0.2c1,0,1.8,0.5,2.5,1c2.1,1.3,3.4,3.2,3.9,5.7c0.1,0.3,0.2,0.7-0.1,1c-0.4,0.2-0.8,0.1-1.2-0.1
+			c-0.2-0.2-0.2-0.5-0.3-0.8c-0.7-2.6-2.2-4.5-4.8-5.3C629.8,474.7,629.4,474.7,629.1,474.7z" />
+            <path class="st10" d="M648.2,474.4c-0.6-0.2-1.3-0.1-2-0.1c0-0.4,0-0.8,0-1.2c0.7,0,1.3,0,2,0c0.4,0.1,0.7,0.1,1.1,0.2
+			c0.2,0.1,0.5,0.2,0.7,0.3c3.4,1.3,5.3,3.8,5.7,7.4c-0.4-0.1-0.8-0.2-1.2-0.2c-0.2-0.2-0.3-0.4-0.3-0.7c-0.5-2.3-1.8-3.9-3.9-4.9
+			c-0.3-0.1-0.6-0.3-0.9-0.5C648.9,474.6,648.5,474.5,648.2,474.4z" />
+            <path class="st11" d="M629.1,474.7c0.4-0.5,0.8,0,1.2,0c0.2,0.2,0.3,0.4,0.3,0.6c0.5,2.4,2,4,4.2,5.1c0.2,0.1,0.4,0.3,0.6,0.4
+			c0.4,0.1,0.8,0.2,1.2,0.2c0.7-0.2,1.3-0.3,2,0.1c0,0.4,0,0.8,0,1.2c-0.7,0-1.3,0-2,0.1c-0.4-0.1-0.7-0.1-1.1-0.2
+			c-0.2-0.1-0.3-0.2-0.5-0.2C631.5,480.7,629.6,478.3,629.1,474.7z" />
+          </g>
+        </g>
+        <!-- premier tracé du rider -->
+        <g id="tracé">
+          <path id="tracé_2" class="st12" d="M1351.1,240.8l0.1,160.3c0,0-13.2,75.2-95.4,86.9l-133.3,0.4c0,0-20.3,0.7-41.1-26.9s-44.5-86.3-117.4-6.4
+			l-36.6,11.1c0,0-38.3,23.6-66.9,21.4H719.3c0,0-66.5-2-82.5-70.5c0,0,5.7-56.1-3-52.2c-8.6,3.9,0.8,57.8,0.8,57.8
+			s-16,60-72.4,65.3l-105,0.3c0,0-27-1.6-47-19.5c0,0-17.6-8.9-34.9-6.8s-27.9,6.2-27.9,6.2s-11.4,6.2-15.8,10.3
+			c0,0-18.8,10.4-33.3,10.6s-125.2-0.6-125.2-0.6s-68.8-2-70.2-70.9c0,0-1.4-5.2-9.9-5.2s-13.3,0.1-13.3,0.1" />
+          <!-- deuxième tracé du rider -->
+          <path id="tracé_1" class="st12" d="M79.2,412.3l16.1,0.1c0,0,7.8,0,8.7,8.6s1,60.4,68.6,66.8l126,0.1
+		c0,0,15.7,1.6,38.6-14.3c22.9-16,51.4-11.3,51.4-11.3s19.7,3.7,30.2,12.2c10.5,8.5,32,13.7,41.7,13.7c9.7,0,99,0,99,0
+		s58.1-2.3,77-70c18.9-67.7,13.1-96.8,3.8-99.5c-9.3-2.7-15.5,0-18.2,8.5c-2.7,8.5,15.4,91.9,15.4,91.9s10.5,64.1,81.7,68.7
+		l204.4,0.4l213.5,0.8l112-0.6c0,0,79.8,1.7,102-87.2V240.8" />
+        </g>
+        <!-- path du rider -->
+        <g id="rider">
+          <g>
+            <path class="st13"
+              d="M86.5,407.7c0.7,1.1,0.7,2.2,0,3.3c-0.5,0.8-1.2,1.2-2,1.3c0,0-0.1,0-0.1,0c-0.3,0-0.5,0-0.8,0
+			c-0.2-0.1-0.5-0.1-0.8-0.2c-1.2-0.5-2-1.8-1.9-3.1c0.1-1.4,1.2-2.5,2.5-2.7c0.9-0.1,1.7,0.1,2.4,0.7c0,0.1,0,0.1-0.1,0.2
+			c-0.3,0.2-0.6,0.5-0.8,0.7c-0.1,0.1-0.1,0.1-0.3,0.1c-0.1,0-0.1-0.1-0.2-0.1c-0.6-0.2-1.3-0.1-1.7,0.4c-0.4,0.6-0.4,1.3,0.1,1.9
+			c0.4,0.5,1.1,0.6,1.7,0.3c0.7-0.4,1-1.2,0.6-1.9c0-0.1,0-0.1,0-0.1c0.3-0.3,0.7-0.6,1-0.9C86.4,407.7,86.4,407.7,86.5,407.7z" />
+            <path class="st13" d="M95.3,412.4c-0.2-0.1-0.4-0.1-0.6-0.2c-1.2-0.4-1.8-1.3-2-2.5c-0.1-1.2,0.3-2.1,1.3-2.8
+			c0.1,0,0.1,0.1,0.1,0.1c0.2,0.4,0.4,0.7,0.6,1.1c0,0,0,0.1,0,0.2c-0.1,0.1-0.2,0.2-0.2,0.3c-0.4,0.6-0.3,1.4,0.2,1.8
+			c0.6,0.5,1.4,0.5,2,0c0.5-0.4,0.7-1.2,0.3-1.8c-0.3-0.6-0.9-0.7-1.5-0.7c-0.1,0-0.1-0.1-0.1-0.1c-0.2-0.4-0.4-0.7-0.6-1.1
+			c0-0.1-0.1-0.1,0-0.2c1-0.3,2-0.2,2.9,0.5c0.6,0.5,1,1.1,1.1,1.9c0,0,0,0.1,0,0.1c0,0.3,0,0.5,0,0.8c0,0.7-0.3,1.2-0.8,1.7
+			c-0.5,0.5-1.1,0.9-1.8,0.9C95.8,412.4,95.6,412.4,95.3,412.4z" />
+            <path class="st14" d="M91.2,392c-0.1-0.4-0.3-0.7-0.4-1.1c0.3-0.1,0.6-0.1,0.8-0.2c0.2,0,0.3,0,0.5,0c0.1,0.1,0.2,0,0.2,0.1
+			c1.2,0.3,1.8,1.6,1.2,2.7c0,0.1-0.1,0.2-0.1,0.3c-0.1,0.2-0.1,0.2-0.3,0.1c-0.1,0-0.2-0.1-0.3-0.1c-0.4-0.2-0.7-0.4-1.1-0.6
+			c-0.2-0.1-0.4-0.3-0.5-0.6C91.3,392.4,91.2,392.2,91.2,392z" />
+            <path class="st15" d="M82.5,398.9c-0.4-1-0.4-2.1,0.3-3c0.3-0.5,0.8-0.8,1.2-1c1.2-0.6,2.4-1.3,3.6-1.9c0.5-0.3,1.1-0.4,1.7-0.1
+			c0.1,0,0.1,0.1,0.1,0.2c0.2,0.5,0.4,1,0.6,1.5c0,0.1,0.1,0.1,0,0.2c-0.1,0.1-0.2,0.2-0.4,0.2c-0.1-0.1-0.1-0.2-0.1-0.3
+			c0-0.4-0.3-0.7-0.7-0.7c-0.4,0-0.7,0.3-0.7,0.7c0,0.4,0,0.7,0,1.1c-0.1,0.1-0.2,0.2-0.3,0.2c-0.5,0.3-0.9,0.5-1.4,0.8
+			c-0.3,0.2-0.6,0.5-0.7,0.9c0,0.3,0,0.6,0.1,0.8c0,0.1,0.1,0.2-0.1,0.3c-0.1,0-0.2,0-0.3,0c-0.9,0-1.7,0-2.6,0
+			C82.8,398.9,82.7,398.9,82.5,398.9z" />
+            <path class="st16" d="M94.7,406.5c0.2,0.5,0.5,0.9,0.7,1.4c0.2,0.3,0.4,0.5,0.4,0.8c-0.2,0.1-0.5,0.2-0.7,0.3
+			c-0.2-0.2-0.4-0.5-0.4-0.9c-0.2-0.5-0.4-0.9-0.7-1.4c-0.2-0.4-0.4-0.7-0.5-1.1c-0.1-0.2-0.1-0.1-0.2,0c-1,0.6-1.9,1.3-2.9,1.9
+			c-0.2-0.1-0.4-0.2-0.7-0.3c0,0-0.1-0.1-0.1-0.1c0-0.1,0.1-0.2,0.2-0.3c0.9-0.6,1.9-1.2,2.8-1.9c0.1,0,0.2-0.1,0.2-0.2
+			c-0.1,0-0.2,0-0.3,0.1c-1.4,0.5-2.8,0.9-4.2,1.4c-0.1,0-0.2,0.1-0.3,0c0-0.2,0-0.5,0-0.7c0.1-0.1,0.2-0.2,0.3-0.2
+			c1.3-0.4,2.6-0.9,3.8-1.3c0.3-0.1,0.3-0.1,0.2-0.4c0-0.1-0.1-0.2-0.1-0.3c-0.2-0.4,0-0.6,0.4-0.7c0.1,0,0.2,0,0.3,0
+			c-0.2-0.4-0.5-0.7-0.6-1.1c0-0.3,0.2-0.4,0.5-0.6c0,0,0.1,0,0.1,0c0.4,0.6,0.8,1.3,1.2,1.9c0.2,0.3,0,0.6-0.3,0.6
+			c-0.1,0-0.3,0-0.5,0C93.8,404.7,94.2,405.6,94.7,406.5z" />
+            <path class="st17" d="M89.7,396.2c0,0.3,0,0.6,0,0.9c0,0.1,0,0.2,0.1,0.3c0.7,0.7,1.4,1.4,2.1,2.1c-0.2,0.3-0.5,0.6-0.8,0.8
+			c-0.1,0-0.2-0.1-0.2-0.1c-0.8-0.6-1.7-1.3-2.5-1.9c-0.2-0.1-0.3-0.3-0.3-0.6c0-0.4,0-0.9,0-1.3c0-0.1,0-0.2,0.1-0.3
+			c0.4-0.1,0.9,0,1.3,0C89.6,396.2,89.6,396.2,89.7,396.2z" />
+            <path class="st14" d="M89.7,396.2c-0.5,0-1,0-1.5,0c-0.1-0.1-0.1-0.2,0-0.4c0-0.4,0-0.7,0-1.1c0-0.5,0.3-0.8,0.8-0.8
+			c0.4,0,0.7,0.3,0.7,0.8c0,0.1,0,0.1,0,0.2C89.7,395.4,89.7,395.8,89.7,396.2z" />
+            <path class="st18" d="M90,394.7c-0.3-0.6-0.5-1.2-0.8-1.9c0.6-0.2,1.2-0.5,1.7-0.7c0.1,0,0.1,0,0.2-0.1c0.1,0.2,0.1,0.3,0.2,0.5
+			c-0.4,0.5-0.6,1.1-0.9,1.7c-0.1,0.1,0,0.2,0,0.3C90.3,394.6,90.2,394.7,90,394.7z" />
+            <path class="st18"
+              d="M91.2,400.4c0.2-0.3,0.5-0.5,0.7-0.8c0.3,0.5,0.7,0.9,1,1.4c0.1,0.1,0.1,0.2,0,0.3c-0.2,0.1-0.4,0.3-0.5,0.6
+			c-0.2,0.2-0.5,0.1-0.8,0.1c-0.1,0-0.1-0.1-0.1-0.2c0-0.1,0-0.1,0-0.2c0-0.3-0.1-0.6-0.2-0.9C91.2,400.6,91.1,400.5,91.2,400.4z" />
+            <path class="st18" d="M91.9,393.1c0.5,0.2,0.9,0.5,1.4,0.8c-0.4,0.2-0.8,0.6-1.2,0.8c-0.2,0.1-0.3,0.3-0.5,0.3
+			c-0.2,0-0.3-0.3-0.5-0.4c0,0,0,0,0,0c0-0.1,0-0.2,0-0.2c0.2-0.4,0.4-0.8,0.6-1.2C91.7,393.2,91.8,393.1,91.9,393.1z" />
+            <path class="st15" d="M91.9,393.1c-0.2,0.3-0.4,0.7-0.6,1c-0.1,0.2-0.2,0.3-0.3,0.5c-0.3,0.1-0.4,0.1-0.6-0.1
+			c-0.1-0.1,0-0.3,0-0.4c0.2-0.5,0.5-0.9,0.7-1.4c0-0.1,0.1-0.2,0.2-0.2C91.5,392.8,91.7,392.9,91.9,393.1z" />
+            <path class="st17" d="M88.2,405.7c0,0.3,0,0.5,0,0.8c0.1,0.2,0.1,0.4,0,0.6c0,0-0.1,0.1-0.1,0.1c-0.4,0.1-0.9,0.2-1.4,0.3
+			c0,0-0.1,0-0.1,0c-0.1-0.3-0.2-0.5-0.1-0.8c-0.2-1-0.4-2.1-0.6-3.1c0-0.1-0.1-0.2-0.1-0.3c-1.1-1.4-2.2-2.9-3.3-4.3
+			c0.1-0.1,0.1,0,0.2,0c1,0,2.1,0,3.1,0c0.1,0,0.2,0.1,0.2,0.2c0.6,1,1.3,2.1,1.9,3.1c0.2,0.3,0.2,0.6,0.2,0.9c0,0.8,0,1.6,0,2.4
+			C88.2,405.5,88.2,405.6,88.2,405.7z" />
+            <path class="st16" d="M86.5,406.7c0.1,0.3,0.1,0.5,0.2,0.8c0,0.1,0,0.1-0.1,0.1c0,0-0.1,0.1-0.1,0.1c-0.4,0.3-0.8,0.7-1.2,1
+			c-0.2,0.3-0.4,0.5-0.7,0.6c-0.1-0.2-0.3-0.4-0.5-0.5c0-0.1,0-0.1,0.1-0.2c0.2-0.2,0.4-0.4,0.6-0.5c0.4-0.3,0.8-0.7,1.2-1
+			C86.2,407,86.3,406.8,86.5,406.7z" />
+            <path class="st19" d="M86.6,407.6C86.6,407.6,86.6,407.5,86.6,407.6c0.6-0.2,1.1-0.3,1.6-0.5c0.1,0,0.1,0,0.2,0
+			c0.5,0.1,0.9,0.1,1.4,0.2c0,0.1,0,0.1,0.1,0.1c0.2,0,0.4,0.1,0.6,0.3c0.1,0.2,0.2,0.5,0.3,0.8c0,0.1,0,0.2-0.1,0.2
+			c-1,0.3-2.1,0.7-3.1,1c-0.2,0.1-0.2,0-0.2-0.1c-0.2-0.6-0.4-1.2-0.6-1.8C86.7,407.7,86.7,407.6,86.6,407.6z" />
+            <path class="st15" d="M95.8,408.8c0.4,0.2,0.6,0.4,0.5,0.8c-0.1,0.3-0.4,0.5-0.7,0.4c-0.4-0.1-0.5-0.4-0.4-0.8c0,0,0-0.1,0-0.1
+			C95.3,408.9,95.5,408.8,95.8,408.8z" />
+            <path class="st15" d="M84.6,409.3c0,0.5-0.3,0.8-0.7,0.7c-0.3-0.1-0.5-0.3-0.5-0.6c0-0.3,0.2-0.5,0.5-0.6c0.1,0,0.1,0,0.2,0
+			C84.4,408.9,84.6,409,84.6,409.3z" />
+          </g>
+        </g>
+      </svg>
+    </div>
+  </div>
+  <!-- Mise en place du cinquième block du site -->
+  <section id="section-5">
+    <h1>Quelques photos des Jeux Olympiques de Tokyo 2020</h1>
+    <div class="slideshow-container">
+
+      <!-- image du carrousel avec largeur 100% -->
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 12</div>
+        <img src="images/slideshow/gettyimages-8.jpg" style="width:100%" alt="daniel">
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 12</div>
+        <img src="images/slideshow/gettyimages-2.jpg" style="width:100%" alt="logan">
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 12</div>
+        <img src="images/slideshow/gettyimages-3.jpg" style="width:100%" alt="transfert-box">
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 12</div>
+        <img src="images/slideshow/gettyimages-4.jpg" style="width:100%" alt="logan-spine">
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">5 / 12</div>
+        <img src="images/slideshow/gettyimages-5.jpg" style="width:100%" alt="daniel-logo-jo">
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">6 / 12</div>
+        <img src="images/slideshow/gettyimages-6.jpg" style="width:100%" alt="tuck-no-hander">
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">7 / 12</div>
+        <img src="images/slideshow/gettyimages-7.jpg" style="width:100%" alt="présentation">
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">8 / 12</div>
+        <img src="images/slideshow/gettyimages-1.jpg" style="width:100%" alt="rim">
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">9 / 12</div>
+        <img src="images/slideshow/gettyimages-9.jpg" style="width:100%" alt="rim-qui-sourit">
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">10 / 12</div>
+        <img src="images/slideshow/gettyimages-10.jpg" style="width:100%" alt="rim-qui-tourne">
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">11 / 12</div>
+        <img src="images/slideshow/gettyimages-11.jpg" style="width:100%" alt="declan-brooks">
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">12 / 12</div>
+        <img src="images/slideshow/gettyimages-12.jpg" style="width:100%" alt="rim-qui-fait-un-whip">
+      </div>
+
+      <!-- suivant et précédent boutton -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- rond de navigation rapide -->
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+      <span class="dot" onclick="currentSlide(6)"></span>
+      <span class="dot" onclick="currentSlide(7)"></span>
+      <span class="dot" onclick="currentSlide(8)"></span>
+      <span class="dot" onclick="currentSlide(9)"></span>
+      <span class="dot" onclick="currentSlide(10)"></span>
+      <span class="dot" onclick="currentSlide(11)"></span>
+      <span class="dot" onclick="currentSlide(12)"></span>
+    </div>
+  </section>
+  <!-- mise en place du sixième block du site, le block partenaires -->
+  <div id="section-6">
+    <div class="container" onclick="location.href='https://www.paris2024.org/en/partners/';" style="cursor:pointer;">
+      <p class="block-logos__title"><span>Worldwide Partners</span></p>
+      <div class="block-logos__wrapper block-logos__wrapper--global_partners">
+        <ul>
+          <li class="block-logos__item">
+            <img class="logo item-logo" alt="Airbnb" loading="lazy"
+              src="https://medias.paris2024.org/uploads/2020/05/Rang1-PartMond-1-Airbnb-RVB.svg" />
+          </li>
+          <li class="block-logos__item">
+            <img class="logo item-logo" alt="Alibaba" loading="lazy"
+              src="https://medias.paris2024.org/uploads/2020/05/Rang1-PartMond-2-Alibaba-RVB.svg" />
+          </li>
+          <li class="block-logos__item">
+            <img class="logo item-logo" alt="Allianz" loading="lazy"
+              src="https://medias.paris2024.org/uploads/2020/05/Rang1-PartMond-3-Allianz-RVB.svg" />
+          </li>
+          <li class="block-logos__item">
+            <img class="logo item-logo" alt="Atos" loading="lazy"
+              src="https://medias.paris2024.org/uploads/2020/05/Rang1-PartMond-4-Atos-RVB-2.svg" />
+          </li>
+          <li class="block-logos__item">
+            <img class="logo item-logo" alt="Bridgestone" loading="lazy"
+              src="https://medias.paris2024.org/uploads/2020/05/Rang1-PartMond-5-Bridgestone-RVB.svg" />
+          </li>
+        </ul>
+        <ul>
+          <li class="block-logos__item">
+            <img class="logo item-logo" alt="Coca-Cola / Mengniu" loading="lazy"
+              src="https://medias.paris2024.org/uploads/2020/05/Rang1-PartMond-6-CocaCola_Mengniu-RVB.svg" />
+          </li>
+          <li class="block-logos__item">
+            <img class="logo item-logo" alt="Intel" loading="lazy"
+              src="https://medias.paris2024.org/uploads/2020/10/Logo-Intel-RVB.svg" />
+          </li>
+          <li class="block-logos__item">
+            <img class="logo item-logo" alt="Omega" loading="lazy"
+              src="https://medias.paris2024.org/uploads/2020/05/Rang1-PartMond-8-Omega-RVB.svg" />
+          </li>
+          <li class="block-logos__item">
+            <img class="logo item-logo" alt="Panasonic" loading="lazy"
+              src="https://medias.paris2024.org/uploads/2020/05/Rang1-PartMond-9-Panasonic-RVB.svg" />
+          </li>
+          <li class="block-logos__item">
+            <img class="logo item-logo" alt="P&amp;G" loading="lazy"
+              src="https://medias.paris2024.org/uploads/2021/09/Rang1-PartMond-10-PG-RVB.svg" />
+          </li>
+        </ul>
+        <ul>
+          <li class="block-logos__item">
+            <img class="logo item-logo" alt="Samsung" loading="lazy"
+              src="https://medias.paris2024.org/uploads/2020/05/Rang1-PartMond-11-Samsung-RVB.svg" />
+          </li>
+          <li class="block-logos__item">
+            <img class="logo item-logo" alt="Toyota" loading="lazy"
+              src="https://medias.paris2024.org/uploads/2020/05/Rang1-PartMond-12-Toyota-RVB.svg" />
+          </li>
+          <li class="block-logos__item">
+            <img class="logo item-logo" alt="Visa" loading="lazy"
+              src="https://medias.paris2024.org/uploads/2020/12/Rang1-PartMond-13-Visa-RVB-1.svg" />
+          </li>
+        </ul>
+      </div>
+      <p class="block-logos__title"><span>Premium Partners</span></p>
+      <div class="block-logos__wrapper block-logos__wrapper--premium_partners">
+        <ul>
+          <li class="block-logos__item">
+            <img class="logo item-logo" alt="Groupe BPCE" loading="lazy"
+              src="https://medias.paris2024.org/uploads/2019/02/Rang1-PartPrem-2-BPCE-RVB.svg" />
+          </li>
+          <li class="block-logos__item">
+            <img class="logo item-logo" alt="EDF" loading="lazy"
+              src="https://medias.paris2024.org/uploads/2020/05/Rang1-PartPrem-3-EDF-RVB.svg" />
+          </li>
+          <li class="block-logos__item">
+            <img class="logo item-logo" alt="Orange" loading="lazy"
+              src="https://medias.paris2024.org/uploads/2020/10/Logo-Orange-RVB.svg" />
+          </li>
+          <li class="block-logos__item">
+            <img class="logo item-logo" alt="Sanofi" loading="lazy"
+              src="https://medias.paris2024.org/uploads/2021/07/Rang1-PartPrem-4-Sanofi-RVB.svg" />
+          </li>
+        </ul>
+      </div>
+      <p class="block-logos__title"><span>Official Partners</span></p>
+      <div class="block-logos__wrapper block-logos__wrapper--official_partners">
+        <ul>
+          <li class="block-logos__item">
+            <img class="logo item-logo" alt="Accor" loading="lazy"
+              src="https://medias.paris2024.org/uploads/2021/11/Rang2-PartOffi-1-Accor-RVB-3.svg" />
+          </li>
+          <li class="block-logos__item">
+            <img class="logo item-logo" alt="Cisco" loading="lazy"
+              src="https://medias.paris2024.org/uploads/2021/04/Rang2-PartOffi-2-Cisco-RVB-1.svg" />
+          </li>
+          <li class="block-logos__item">
+            <img class="logo item-logo" alt="Decathlon" loading="lazy"
+              src="https://medias.paris2024.org/uploads/2021/07/Rang2-PartOffi-3-Decathlon-RVB.svg" />
+          </li>
+          <li class="block-logos__item">
+            <img class="logo item-logo" alt="FDJ" loading="lazy"
+              src="https://medias.paris2024.org/uploads/2021/04/Rang2-PartOffi-2-FDJ-RVB_100.svg" />
+          </li>
+          <li class="block-logos__item">
+            <img class="logo item-logo" alt="Le Coq Sportif" loading="lazy"
+              src="https://medias.paris2024.org/uploads/2020/05/Rang2-PartOffi-1-Le-Coq-Sportif-RVB.svg" />
+          </li>
+        </ul>
+        <ul>
+          <li class="block-logos__item">
+            <img class="logo item-logo" alt="PwC" loading="lazy"
+              src="https://medias.paris2024.org/uploads/2021/07/Rang2-PartOffi-5-PwC-RVB.svg" />
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- mise en place du footer -->
+    <footer>
+      <div id="coordonnée">
+        <h3>Mes Coordonnées</h3>
+        <ul>
+          <li>Romani Hugo</li>
+          <li>hugo.romani@live.fr</li>
+          <li>06 44 80 06 08</li>
+          <li>Portfolio: ""</li>
+        </ul>
+      </div>
+      <div id="projet">
+        <h3>Site réaliser dans le cadre d'un projet</h3>
+        <h4>Site avec le thème des Jeux Olympiques 2024.</h4>
+        <ul>
+          <li> Création d'une page Acceuil </li>
+          <li> Création d'une page Règles </li>
+          <li> Création d'une page Palmarès </li>
+        </ul>
+      </div>
+      <div id="formation">
+        <h3>Organisme de formation: Cnam Occitanie </h3>
+        <h4>Réseaux du cnam:</h4>
+        <div id="logo-reseaux">
+          <a href="https://www.cnam-occitanie.fr/"><img src="icons/footer/logo_cnam.png" alt="logo_cnam"></a>
+          <a href="https://www.facebook.com/cnam.occitanie/"><img src="icons/footer/facebook-brands-2.svg"
+              alt="facebook_cnam"></a>
+          <a href="https://www.linkedin.com/company/cnam-lr/?originalSubdomain=fr"><img
+              src="icons/footer/linkedin-brands-2.svg" alt="linkedin-brands"></a>
+          <a href="https://twitter.com/CnamOccitanie"><img src="icons/footer/twitter-brands-2.svg"
+              alt="twitter-brands"></a>
+        </div>
+      </div>
+    </footer>
+    <!-- importation des plugins de la librery JavaSript Gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/EaselPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/MotionPathPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/CustomEase.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollToPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <!-- lien fichier javascript -->
+    <script src="app.js"></script>
+</body>
+
+</html>
